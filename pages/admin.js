@@ -27,11 +27,13 @@ export default function Admin() {
     <div className='text-center'>
       <h1 className='mt-10 font-extrabold text-2xl mb-8'>Admin</h1>
 
-      <Link href='/admin/new'>
-        <a className='inline mx-auto bg-black text-white px-3 py-1 text-lg'>
+      <Link
+        href='/admin/new'
+        className='inline mx-auto bg-black text-white px-3 py-1 text-lg'>
+        
           Add a new product
-        </a>
+        
       </Link>
     </div>
-  )
+  );
 }
